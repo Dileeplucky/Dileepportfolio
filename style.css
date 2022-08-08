@@ -1,0 +1,172 @@
+.bodystyle{
+  background-color:#2a9d8f;
+  overflow-x: hidden;
+  animation-name: dileep;
+   animation-duration: 19s; 
+   animation-iteration-count: infinite;
+   animation-delay: 3s;
+   animation-timing-function: ease-in-out;
+}
+@keyframes dileep{
+  0%{background-color:#aab5f8;color: rgb(43, 43, 37);}
+  25%{background-color:#e1e5f2; color: rgb(24, 23, 26);}
+  50%{background-color:#ffcad4; color: rgb(24, 23, 26);;  }
+  
+}
+.namestyle{
+animation: heading 6s linear 3s infinite alternate;
+}
+@keyframes heading{
+  0%{color:#3a0ca3 }
+  0%{color:#ffc300}
+  0%{color:#6f2dbd }
+  0%{color: #002e72}
+
+
+}
+.imgright{
+ 
+  border-radius: 120px;
+  margin-left: 3%;
+
+}
+.navbar {
+  overflow:hidden;
+  background-color:#264653;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  position: fixed;
+  animation-name: dileep1;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+
+  
+}
+@keyframes dileep1{
+  from{background-color: #0d3b66;}
+  to{background-color:#588157;}
+}
+
+.navbar a {
+  color:rgb(56, 51, 51);
+  font-size: 15px;
+}
+.column {
+  float: left;
+  padding: 20px;
+}
+
+.demoinfo{
+    text-align: right;
+    text-decoration: double;
+    font-weight:bold;
+    font-size:20px;
+    font-family:serif;
+    color:black;
+    padding-left: 8px;
+    padding-top: 120px;
+    margin-right: 18px;
+}
+ .bstyle{
+    margin-right: 172.5px;
+    margin-left: 10px;
+    background-color: rgb(191, 211, 79);
+    font-weight: bold;
+    border-radius:4px;
+    text-align: right;
+    animation-name: dileep2;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-duration: 9s;
+ }
+  table , th, td, tr{
+   margin-left: 2%;
+   border:rgb(16, 15, 17);
+   border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    border-left-width: 3px;
+   border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-left-radius: 18px;
+  }
+  .below{
+    padding-left: 7px;
+    margin-left: 15px;
+    color:rgb(39, 49, 21) ;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+  }
+  .co-para{
+    margin: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 3px;
+    font-weight: bold;
+  }
+  .tbstyle{
+    border-top-right-radius: 80px;
+    border-top-left-radius: 10px;
+    width:96% ;
+    height: 300px; 
+    font-weight: bold;
+    border-style:double;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .skillstyle{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding:0.3%;
+  text-align: left;
+  margin-left: 140px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-family:cursive;
+  }
+  .buttoninnerstyle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color:lightsalmon ;
+    animation-name: dileep2;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-duration: 9s;
+
+  }
+  @keyframes dileep2 {
+    form{background-color:#bfc0c0;}
+    to{background-color: #9cf3aa;}
+  }
+  .projectstyle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    text-align: left;
+    margin-left: 260px;
+    margin-right: 1px;
+    font-weight: bold;
+  }
+  .personalstyle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    border:rgb(16, 15, 17);
+    border-style:double;
+  }
+  .Certificate{
+    text-align:left;
+    margin-left: 142px;
+    
+    
+  }
+
+  
+  
+  
